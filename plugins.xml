@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plugins [
+        <!ELEMENT
+                plugins (plugin)*>
+        <!ELEMENT
+                plugin (#PCDATA)>
+        <!ATTLIST
+                plugin id CDATA #REQUIRED url CDATA #REQUIRED version CDATA #REQUIRED>]>
+<plugins>
+    <plugin id="com.itangcent.idea.plugin.easy-yapi-mj"
+            url="https://github.com/meijian-io/mj-plugins-repository/raw/master/easy-yapi-mj/easy-yapi-mj.1.9.0.0.jar"
+            version="1.9.0.0"/>
+</plugins>
